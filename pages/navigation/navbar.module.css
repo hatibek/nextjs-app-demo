@@ -1,0 +1,20 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    margin-bottom: 3rem;
+    line-height: 3;
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #502F4C;
+}
+
+.navLink {
+    color: #502F4C;
+    text-decoration: none;
+    font-size:xx-large;
+    font-family: "Londrina Shadow", serif;
+    font-weight: 900;
+    font-style: normal;
+}

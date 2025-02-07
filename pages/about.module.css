@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    font-family: "Yusei Magic", serif;
+    font-size: 1.7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me_p {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 1.2rem;
+}
