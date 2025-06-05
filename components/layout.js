@@ -5,10 +5,10 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 
 
-const name = "Hello!";
+
 export const siteTitle = "Libellum Hatibei";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, pageName }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -44,25 +44,21 @@ export default function Layout({ children, home }) {
               width={200}
               alt=""
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{pageName}</h1>
           </>
         ) : (
           <>
-   
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
+            <h2>SOMETHING ELSE HERE</h2>
+  
           </>
         )}
       </header>
       <main className={styles.main}>{children}</main>
-      {!home && (
+      {/* {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

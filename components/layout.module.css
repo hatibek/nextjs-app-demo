@@ -1,6 +1,7 @@
 .container {
   flex-direction: column;
   align-items: center;
+  border: 2px solid red;
 }
 
 .header {
@@ -9,9 +10,9 @@
   align-items: center;
 }
 
-.backToHome {
+/* .backToHome {
   margin: 3rem 0 0;
-}
+} */
 
 .main {
   display: flex;

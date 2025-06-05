@@ -1,13 +1,13 @@
 .navbar {
     position: sticky;
     top: 0;
-    margin-bottom: 3rem;
     line-height: 3;
     padding: 0 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #502F4C;
+    z-index: 2;
 }
 
 .navLink {
@@ -17,4 +17,11 @@
     font-family: "Londrina Shadow", serif;
     font-weight: 900;
     font-style: normal;
+}
+
+.active {
+    font-size: 2rem;
+    text-decoration: underline;
+    color:#fe654f;
+    border-radius: 4px;
 }
