@@ -48,7 +48,7 @@ export default function Layout({ children, home, pageName }) {
           </>
         ) : (
           <>
-            <h2>SOMETHING ELSE HERE</h2>
+            <h2>TITLE</h2>
   
           </>
         )}
