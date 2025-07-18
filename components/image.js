@@ -1,14 +1,13 @@
 import Image from "next/image";
 
-export default function ImageComponent() {
+export default function ImageComponent({image}) {
   return (
     <Image
-      src="/images/profile.jpg"
-      width={160}
+      src={image.src}
       height={130}
-      alt="Picture of the author"
+      width={160}
+      alt={image.alt}
       layout="responsive"
-
     />
   );
 }
